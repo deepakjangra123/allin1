@@ -1,0 +1,10 @@
+pointer : variable which store address of other var..
+#include<iostream>
+using namespace std;
+int main()
+{
+   int i=10;
+   cout<<&i; // 0x61ff0c  0x represents its in hexadeecimal // 61ff0c  this is address part
+   return 0;
+}
+deep
